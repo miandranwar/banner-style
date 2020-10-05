@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="110" height="110" viewBox="0 0 110 110">
+  <defs>
+    <filter id="Ellipse_4" x="0" y="0" width="110" height="110" filterUnits="userSpaceOnUse">
+      <feOffset dx="4" dy="6" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feFlood flood-opacity="0.98"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(99 55)">
+    <g transform="matrix(1, 0, 0, 1, -99, -55)" filter="url(#Ellipse_4)">
+      <g id="Ellipse_4-2" data-name="Ellipse 4" transform="translate(11 9)" stroke="#0795f3" stroke-width="10">
+        <circle cx="40" cy="40" r="40" stroke="none"/>
+        <circle cx="40" cy="40" r="35" fill="none"/>
+      </g>
+    </g>
+    <path id="Icon_awesome-facebook" data-name="Icon awesome-facebook" d="M50.563,25.715A25,25,0,1,0,21.656,50.563V32.985H15.305V25.715h6.351V20.173c0-6.3,3.73-9.785,9.443-9.785a38.249,38.249,0,0,1,5.6.491v6.187H33.542c-3.1,0-4.074,1.939-4.074,3.928v4.721H36.4l-1.109,7.271H29.469V50.563A25.115,25.115,0,0,0,50.563,25.715Z" transform="translate(-74 -32)" fill="#0795f3"/>
+  </g>
+</svg>

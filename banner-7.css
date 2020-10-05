@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    
+.screen {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    width: 1200px;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+    border: solid 2px #fff;
+}
+
+.contents .logo {
+    position: absolute;
+    top: 30px;
+    left: 50px;
+    font-size: 2rem;
+    color: #fff;
+    text-shadow: 6px 0px 6px rgba(1, 27, 54, 1);
+}
+.heading {
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    width: 450px;
+}
+.heading h1 {
+    text-align: center;
+    font-size: 2rem;
+    line-height: 60px;
+    color:#ff0000;
+    text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.5);
+}
+.heading p {
+    color: rgba(90, 89, 89, 0.9);
+}
+.circle-1 {
+    position: absolute;
+    top: -333px;
+    right: -280px;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    box-shadow: -16px 12px 40px #000;
+
+}
+.circle-2 {
+    position: absolute;
+    top: -354px;
+    right: -370px;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    box-shadow: -16px 12px 40px #000;
+
+}
+.circle-3 {
+    position: absolute;
+    top: -350px;
+    right: -464px;
+    width: 800px;
+    height: 800px;
+    border-radius: 50%;
+    background-color: #ff0000;
+    box-shadow: -16px 12px 40px #000;
+}

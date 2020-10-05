@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="http://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="banner-10.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="banner"></div>
+    </section>
+    <script>
+        $(document).ready(function(){
+            $(Window).scroll(function(){
+                let position = $(Window).scrollTop();
+                $('.banner').css('height', + (position * 5 ) + 'px')
+            })
+        })
+    </script>
+</body>
+</html>

@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+    
+.screen {
+    width: 100%;
+    height: 100vh;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    width: 1200px;
+    height: 450px;
+    position: relative;
+    background-color: #f88417;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+.circle-1 {
+    position: absolute;
+    top: -220px;
+    right: -218px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+    box-shadow: 24px 24px 30px #570B79;
+}
+.circle-2 {
+    position: absolute;
+    top: -385px;
+    left: -283px;
+    background-color: #f8e0c9;
+    border-radius: 50%;
+    width: 800px;
+    height: 800px;
+}
+.circle-3 {
+    position: absolute;
+    top: 60px;
+    left: 150px;
+    background-color: #F88417;
+    border-radius: 50%;
+    width: 500px;
+    height: 500px;
+    box-shadow: 51px 40px 30px #570B79;
+
+}
+.circle-4 {
+    position: absolute;
+    bottom: -35px;
+    left: -40px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    box-shadow: 30px 30px 30px #570B79;
+
+}
+.logo {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    color: #F88417;
+    font-size: 2rem;
+}
+
+.text {
+    position:absolute;
+    top: 150px;
+    left: 310px;
+    color: #fff;
+
+}
+h1 {
+    font-size: 2.5rem;
+    
+}
+h1 span {
+    font-size: 4rem;
+    letter-spacing: 3px;
+}
+.text p {
+    width: 220px;
+}

@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="banner-9.css">
+    <title>Document</title>
+</head>
+<body>
+    <section>
+        <div class="banner">
+            <div class="moon"></div>
+            <p></p>
+        </div>
+    </section>
+    < <script>
+        function stars(){
+            let sky = document.querySelector('.banner');
+            let star = document.createElement('p')
+            
+            
+            star.style.left= Math.random() * innerWidth + 'px'
+            star.style.top = Math.random() * 350 + 'px'
+            sky.appendChild(star)
+            setTimeout(()=> {
+                star.remove()
+            }, 6000)
+        }
+        setInterval(stars, 70)
+        
+    </script>
+</body>
+</html>

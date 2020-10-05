@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000;
+}
+
+.bannar {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.bannar header {
+    display: flex;
+    padding: 20px 50px;
+    justify-content: space-between;
+}
+header .logo {
+    color: #fff;
+    font-size: 2rem;
+    z-index: 3;
+}
+header img {
+     visibility: hidden;
+     width: 30px;
+     height: 30px;
+     z-index: 3;
+}
+
+
+.main-image {
+    background-image: url(./Asserts/Images/Grass-with-drop.jpg);
+    background-attachment: fixed;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    filter: blur(2px);
+}
+.heading {
+    z-index: 3;
+    position: absolute;
+    top: 30%;
+    left: 17%;
+    width: 470px;
+    color: #000;
+}
+.heading h1 {
+    font-size: 4rem;
+    line-height: 5.5rem;
+}
+.heading span {
+    font-size: 11rem;
+    color: #fff;
+    text-shadow: 10px 10px 10px #000;
+}
+.heading p {
+    margin-bottom: 30px;
+}
+.heading a{
+    line-height: 2rem;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.earth {
+    background-image: url(./Asserts/Png/earth-1.png);
+    position: absolute;
+    background-size: cover;
+    top: 15%;
+    left: 50%;
+    z-index: 2;
+    width: 500px;
+    height: 500px;
+    
+    background-repeat: no-repeat;
+
+}
+@media (max-width: 580px) {
+    header img {
+        visibility: visible;
+    }
+    .heading {
+        top: 45%;
+        left: 10%;
+    }
+    .earth {
+        top: 10%;
+        left: 33%;
+        width: 200px;
+        height: 200px;
+    }
+}

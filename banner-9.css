@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+section {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(#111425, #3751e0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner {
+    position: relative;
+    width: 80%;
+    height: 70%;
+    background-color: #000;
+    border: solid 2px #fff;
+    border-radius: 20px;
+    box-shadow: 6px 6px 20px #999;
+    overflow: hidden;
+}
+.moon {
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 0.855);
+}
+.moon:before {
+    content: '';
+    position: absolute;
+    top: -12px;
+    left: 13px;
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+    background-color:#000;
+
+}
+.banner p {
+    position: absolute;
+}
+.banner p::before {
+    content: '⚝';
+    width: 100%;
+    height: 100%;
+    font-size: 10px;
+    color: #fff;
+}
